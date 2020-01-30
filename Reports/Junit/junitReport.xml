@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Performing_login_and_logout_in_HeroKuApp" timestamp="2020-01-30T17:23:15" time="8.202" tests="2" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="featureName" value="Performing login and logout in HeroKuApp"/>
+      <property name="capabilities" value="chrome.79_0_3945_130.macosx"/>
+      <property name="featureFile" value="./test/features/Login.feature"/>
+    </properties>
+    <testcase classname="CucumberJUnitReport-chrome.79_0_3945_130.macosx.Performing_login_and_logout_in_HeroKuApp" name="Performing_login_and_logout_in_HeroKuApp.Login_with_a_default_user" time="6.794">
+      <system-out>
+        <![CDATA[
+✅ Given I'm on the login page
+✅ When I login with the default user
+✅ Then I shall be on the secure area page
+
+]]>
+      </system-out>
+    </testcase>
+    <testcase classname="CucumberJUnitReport-chrome.79_0_3945_130.macosx.Performing_login_and_logout_in_HeroKuApp" name="Performing_login_and_logout_in_HeroKuApp.Logout_from_the_secure_area_page" time="1.394">
+      <system-out>
+        <![CDATA[
+✅ When I click on logout button
+✅ Then I will comeback to login page
+
+]]>
+      </system-out>
+    </testcase>
+  </testsuite>
+</testsuites>

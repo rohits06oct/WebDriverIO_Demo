@@ -1,0 +1,66 @@
+{
+  "uid" : "877bc9c5ab4a1d97",
+  "name" : "Hook",
+  "fullName" : "Performing login and logout in HeroKuApp: Login with a default user.Hook",
+  "historyId" : "39c929b0e2bce23f1f9e0ddf3dd433b6",
+  "time" : {
+    "start" : 1580381913032,
+    "stop" : 1580381913032,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Performing login and logout in HeroKuApp: Login with a default user"
+  }, {
+    "name" : "testClass",
+    "value" : "Performing login and logout in HeroKuApp: Login with a default user"
+  }, {
+    "name" : "testMethod",
+    "value" : "Hook"
+  }, {
+    "name" : "package",
+    "value" : "Performing login and logout in HeroKuApp: Login with a default user"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "38ad43d924843539",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580381906575,
+        "stop" : 1580381906576,
+        "duration" : 1
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "877bc9c5ab4a1d97.json",
+  "parameterValues" : [ "chrome" ]
+}

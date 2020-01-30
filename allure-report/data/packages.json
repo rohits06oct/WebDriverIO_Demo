@@ -1,0 +1,104 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "Performing login and logout in HeroKuApp: Login with a default user",
+    "children" : [ {
+      "name" : "Given I'm on the login page",
+      "uid" : "4b4e7048be1169d3",
+      "parentUid" : "3460fd5c90dc37095bceb3ece5cb081a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580381906577,
+        "stop" : 1580381911223,
+        "duration" : 4646
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "When I login with the default user",
+      "uid" : "aa73ca2ede9ba55f",
+      "parentUid" : "3460fd5c90dc37095bceb3ece5cb081a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580381911223,
+        "stop" : 1580381912671,
+        "duration" : 1448
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Then I shall be on the secure area page",
+      "uid" : "a84e93b640a25e5f",
+      "parentUid" : "3460fd5c90dc37095bceb3ece5cb081a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580381912671,
+        "stop" : 1580381913031,
+        "duration" : 360
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Hook",
+      "uid" : "877bc9c5ab4a1d97",
+      "parentUid" : "3460fd5c90dc37095bceb3ece5cb081a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580381913032,
+        "stop" : 1580381913032,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "3460fd5c90dc37095bceb3ece5cb081a"
+  }, {
+    "name" : "Performing login and logout in HeroKuApp: Logout from the secure area page",
+    "children" : [ {
+      "name" : "When I click on logout button",
+      "uid" : "2f6b891f6e88dc4f",
+      "parentUid" : "c7bb190fb0b05dfa9dbfcd775b7df633",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580381913040,
+        "stop" : 1580381914012,
+        "duration" : 972
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Then I will comeback to login page",
+      "uid" : "d35b598c88c72c18",
+      "parentUid" : "c7bb190fb0b05dfa9dbfcd775b7df633",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580381914012,
+        "stop" : 1580381914394,
+        "duration" : 382
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Hook",
+      "uid" : "dc3afdbc15069138",
+      "parentUid" : "c7bb190fb0b05dfa9dbfcd775b7df633",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580381914394,
+        "stop" : 1580381914394,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "c7bb190fb0b05dfa9dbfcd775b7df633"
+  } ]
+}

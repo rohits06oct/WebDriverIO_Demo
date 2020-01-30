@@ -1,0 +1,71 @@
+[ {
+  "uid" : "4b4e7048be1169d3",
+  "name" : "Given I'm on the login page",
+  "time" : {
+    "start" : 1580381906577,
+    "stop" : 1580381911223,
+    "duration" : 4646
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dc3afdbc15069138",
+  "name" : "Hook",
+  "time" : {
+    "start" : 1580381914394,
+    "stop" : 1580381914394,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "aa73ca2ede9ba55f",
+  "name" : "When I login with the default user",
+  "time" : {
+    "start" : 1580381911223,
+    "stop" : 1580381912671,
+    "duration" : 1448
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "877bc9c5ab4a1d97",
+  "name" : "Hook",
+  "time" : {
+    "start" : 1580381913032,
+    "stop" : 1580381913032,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d35b598c88c72c18",
+  "name" : "Then I will comeback to login page",
+  "time" : {
+    "start" : 1580381914012,
+    "stop" : 1580381914394,
+    "duration" : 382
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a84e93b640a25e5f",
+  "name" : "Then I shall be on the secure area page",
+  "time" : {
+    "start" : 1580381912671,
+    "stop" : 1580381913031,
+    "duration" : 360
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2f6b891f6e88dc4f",
+  "name" : "When I click on logout button",
+  "time" : {
+    "start" : 1580381913040,
+    "stop" : 1580381914012,
+    "duration" : 972
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

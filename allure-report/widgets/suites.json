@@ -1,0 +1,26 @@
+{
+  "total" : 2,
+  "items" : [ {
+    "uid" : "afe7d567d42c2c9f6b56050792c000aa",
+    "name" : "Performing login and logout in HeroKuApp: Login with a default user",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    }
+  }, {
+    "uid" : "6467a365b9b97237c514a356765cfe79",
+    "name" : "Performing login and logout in HeroKuApp: Logout from the secure area page",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    }
+  } ]
+}

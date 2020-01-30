@@ -1,0 +1,110 @@
+{
+  "uid" : "a84e93b640a25e5f",
+  "name" : "Then I shall be on the secure area page",
+  "fullName" : "Performing login and logout in HeroKuApp: Login with a default user.Then I shall be on the secure area page",
+  "historyId" : "d7e66fbaba09b12c4b8549433465e87a",
+  "time" : {
+    "start" : 1580381912671,
+    "stop" : 1580381913031,
+    "duration" : 360
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "GET /session/:sessionId/url",
+      "time" : {
+        "start" : 1580381912671,
+        "stop" : 1580381912675,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3bc56e47b7d35ec5",
+        "name" : "Response",
+        "source" : "3bc56e47b7d35ec5.json",
+        "type" : "application/json",
+        "size" : 43
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/screenshot",
+      "time" : {
+        "start" : 1580381912675,
+        "stop" : 1580381913031,
+        "duration" : 356
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ac816baf2152edd9",
+        "name" : "Screenshot",
+        "source" : "ac816baf2152edd9.png",
+        "type" : "image/png",
+        "size" : 115034
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Performing login and logout in HeroKuApp: Login with a default user"
+  }, {
+    "name" : "testClass",
+    "value" : "Performing login and logout in HeroKuApp: Login with a default user"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then I shall be on the secure area page"
+  }, {
+    "name" : "package",
+    "value" : "Performing login and logout in HeroKuApp: Login with a default user"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a84e93b640a25e5f.json",
+  "parameterValues" : [ "chrome" ]
+}

@@ -1,0 +1,110 @@
+{
+  "uid" : "d35b598c88c72c18",
+  "name" : "Then I will comeback to login page",
+  "fullName" : "Performing login and logout in HeroKuApp: Logout from the secure area page.Then I will comeback to login page",
+  "historyId" : "eb07ee1f4d02d55f0f34b0d5a2b75c0e",
+  "time" : {
+    "start" : 1580381914012,
+    "stop" : 1580381914394,
+    "duration" : 382
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "GET /session/:sessionId/url",
+      "time" : {
+        "start" : 1580381914013,
+        "stop" : 1580381914016,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a701e3f67bf53a27",
+        "name" : "Response",
+        "source" : "a701e3f67bf53a27.json",
+        "type" : "application/json",
+        "size" : 42
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/screenshot",
+      "time" : {
+        "start" : 1580381914017,
+        "stop" : 1580381914393,
+        "duration" : 376
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e40844d8ea25ac44",
+        "name" : "Screenshot",
+        "source" : "e40844d8ea25ac44.png",
+        "type" : "image/png",
+        "size" : 157444
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Performing login and logout in HeroKuApp: Logout from the secure area page"
+  }, {
+    "name" : "testClass",
+    "value" : "Performing login and logout in HeroKuApp: Logout from the secure area page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then I will comeback to login page"
+  }, {
+    "name" : "package",
+    "value" : "Performing login and logout in HeroKuApp: Logout from the secure area page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d35b598c88c72c18.json",
+  "parameterValues" : [ "chrome" ]
+}

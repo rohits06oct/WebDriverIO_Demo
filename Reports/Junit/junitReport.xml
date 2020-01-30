@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="Performing_login_and_logout_in_HeroKuApp" timestamp="2020-01-30T17:23:15" time="8.202" tests="2" failures="0" errors="0" skipped="0">
+  <testsuite name="Performing_login_and_logout_in_HeroKuApp" timestamp="2020-01-30T18:49:32" time="7.332" tests="2" failures="0" errors="1" skipped="0">
     <properties>
       <property name="specId" value="0"/>
       <property name="featureName" value="Performing login and logout in HeroKuApp"/>
       <property name="capabilities" value="chrome.79_0_3945_130.macosx"/>
       <property name="featureFile" value="./test/features/Login.feature"/>
     </properties>
-    <testcase classname="CucumberJUnitReport-chrome.79_0_3945_130.macosx.Performing_login_and_logout_in_HeroKuApp" name="Performing_login_and_logout_in_HeroKuApp.Login_with_a_default_user" time="6.794">
+    <testcase classname="CucumberJUnitReport-chrome.79_0_3945_130.macosx.Performing_login_and_logout_in_HeroKuApp" name="Performing_login_and_logout_in_HeroKuApp.Login_with_a_default_user" time="5.872">
       <system-out>
         <![CDATA[
 ✅ Given I'm on the login page
@@ -17,14 +17,21 @@
 ]]>
       </system-out>
     </testcase>
-    <testcase classname="CucumberJUnitReport-chrome.79_0_3945_130.macosx.Performing_login_and_logout_in_HeroKuApp" name="Performing_login_and_logout_in_HeroKuApp.Logout_from_the_secure_area_page" time="1.394">
+    <testcase classname="CucumberJUnitReport-chrome.79_0_3945_130.macosx.Performing_login_and_logout_in_HeroKuApp" name="Performing_login_and_logout_in_HeroKuApp.Logout_from_the_secure_area_page" time="1.446">
+      <error message="expected 'https://the-internet.herokuapp.com/secure' to equal 'https://the-internet.herokuapp.com/login'"/>
       <system-out>
         <![CDATA[
 ✅ When I click on logout button
-✅ Then I will comeback to login page
+❗ Then I will comeback to login page
 
 ]]>
       </system-out>
+      <system-err>
+        <![CDATA[
+AssertionError: expected 'https://the-internet.herokuapp.com/secure' to equal 'https://the-internet.herokuapp.com/login'
+    at World.<anonymous> (/Users/singr117/Demo/DemoWebdriverIO/src/steps/Login.js:27:14)
+]]>
+      </system-err>
     </testcase>
   </testsuite>
 </testsuites>

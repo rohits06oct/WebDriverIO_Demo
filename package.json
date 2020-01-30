@@ -21,6 +21,7 @@
     "@wdio/selenium-standalone-service": "^5.16.10",
     "@wdio/spec-reporter": "^5.18.6",
     "@wdio/sync": "^5.18.6",
+    "chai": "^4.2.0",
     "chromedriver": "^79.0.2",
     "cucumber": "^6.0.5",
     "local-runner": "^0.1.1-alpha",

@@ -1,0 +1,109 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1580390378216' stop='1580390379663'>
+    <name>Performing login and logout in HeroKuApp: Logout from the secure area page</name>
+    <title>Performing login and logout in HeroKuApp: Logout from the secure area page</title>
+    <test-cases>
+        <test-case start='1580390378216' status='passed' stop='1580390378216'>
+            <name>Hook</name>
+            <title>Hook</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1580390378216' status='passed' stop='1580390379293'>
+            <name>When I click on logout button</name>
+            <title>When I click on logout button</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1580390378216' status='passed' stop='1580390378226'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='3a152deb-96fb-4542-bd3d-8ce6d76f03d0-attachment.json' type='application/json' size='62'/>
+                        <attachment title='Response' source='2602fa5b-f885-4e8b-9ea6-6eb20111bba2-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1580390378227' status='passed' stop='1580390378898'>
+                    <name>POST /session/:sessionId/element/00bd74b0-17d5-4219-b873-c0736d2d351d/click</name>
+                    <title>POST /session/:sessionId/element/00bd74b0-17d5-4219-b873-c0736d2d351d/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1580390378898' status='passed' stop='1580390379292'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='83522d73-5f1e-4402-8df0-11d170e25fbe-attachment.png' type='image/png' size='157444'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1580390379293' status='failed' stop='1580390379662'>
+            <name>Then I will comeback to login page</name>
+            <title>Then I will comeback to login page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1580390379293' status='passed' stop='1580390379298'>
+                    <name>GET /session/:sessionId/url</name>
+                    <title>GET /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Response' source='6806243d-08b9-4b79-ba63-55d12a86fc4b-attachment.json' type='application/json' size='42'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1580390379299' status='passed' stop='1580390379660'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='40ba6d4e-d665-446e-b01a-c1c7490d830b-attachment.png' type='image/png' size='157444'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>expected 'https://the-internet.herokuapp.com/secure' to equal 'https://the-internet.herokuapp.com/login'</message>
+                <stack-trace>AssertionError: expected 'https://the-internet.herokuapp.com/secure' to equal 'https://the-internet.herokuapp.com/login'
+                    at World.&lt;anonymous> (/Users/singr117/Demo/DemoWebdriverIO/src/steps/Login.js:27:14)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1580390379662' status='passed' stop='1580390379662'>
+            <name>Hook</name>
+            <title>Hook</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

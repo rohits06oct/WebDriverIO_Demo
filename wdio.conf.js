@@ -124,17 +124,17 @@ exports.config = {
     // The only one supported by default is 'dot'
     // see also: https://webdriver.io/docs/dot-reporter.html
     reporters: [
-        ['junit', {
-            outputDir: './Reports/Junit',
-            outputFileFormat: function(options) { // optional
-                return `junitReport.xml`
-            }
-        }],
-        ['allure', {
-            outputDir: './Reports/allure_report/',
-            disableWebdriverStepsReporting: false,
-            disableWebdriverScreenshotsReporting: false,
-        }]
+        // ['junit', {
+        //     outputDir: './Reports/Junit',
+        //     outputFileFormat: function(options) { // optional
+        //         return `junitReport.xml`
+        //     }
+        // }],
+        // ['allure', {
+        //     outputDir: './Reports/allure_report/',
+        //     disableWebdriverStepsReporting: false,
+        //     disableWebdriverScreenshotsReporting: false,
+        // }]
     ],
  //
     // If you are using Cucumber you need to specify the location of your step definitions.
@@ -212,10 +212,10 @@ exports.config = {
     /**
      * Runs after a Cucumber step
      */
-    afterStep: function (uri, feature, { error, result, duration, passed }, stepData, context) {
-        var date=Date.now();
-        browser.saveScreenshot('./Reports/screenshot/Chrome -'+date+'.png');
-    },
+    // afterStep: function (uri, feature, { error, result, duration, passed }, stepData, context) {
+    //     var date=Date.now();
+    //     browser.saveScreenshot('./Reports/screenshot/Chrome -'+date+'.png');
+    // },
     /**
      * Runs after a Cucumber scenario
      */

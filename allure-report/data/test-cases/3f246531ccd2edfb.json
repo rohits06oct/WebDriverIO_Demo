@@ -1,0 +1,116 @@
+{
+  "uid" : "3f246531ccd2edfb",
+  "name" : "Given I am a user on espn.com",
+  "fullName" : "Performing Topevents is display or not: the topevents dropdown menu.Given I am a user on espn.com",
+  "historyId" : "6acaed4dc681d7d1b6d22404092cf56e",
+  "time" : {
+    "start" : 1580730941732,
+    "stop" : 1580730947014,
+    "duration" : 5282
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/window/rect",
+      "time" : {
+        "start" : 1580730941736,
+        "stop" : 1580730941853,
+        "duration" : 117
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5e4c596c7e0450ae",
+        "name" : "Request",
+        "source" : "5e4c596c7e0450ae.json",
+        "type" : "application/json",
+        "size" : 63
+      }, {
+        "uid" : "6360c98ffdd33b1a",
+        "name" : "Response",
+        "source" : "6360c98ffdd33b1a.json",
+        "type" : "application/json",
+        "size" : 58
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1580730941854,
+        "stop" : 1580730947013,
+        "duration" : 5159
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b40e3ed515d34399",
+        "name" : "Request",
+        "source" : "b40e3ed515d34399.json",
+        "type" : "application/json",
+        "size" : 71
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Performing Topevents is display or not: the topevents dropdown menu"
+  }, {
+    "name" : "testClass",
+    "value" : "Performing Topevents is display or not: the topevents dropdown menu"
+  }, {
+    "name" : "testMethod",
+    "value" : "Given I am a user on espn.com"
+  }, {
+    "name" : "package",
+    "value" : "Performing Topevents is display or not: the topevents dropdown menu"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3f246531ccd2edfb.json",
+  "parameterValues" : [ "chrome" ]
+}

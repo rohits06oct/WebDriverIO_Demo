@@ -1,0 +1,236 @@
+{
+  "uid" : "d37b16054dc0378",
+  "name" : "When I login with the default user",
+  "fullName" : "Performing login and logout in HeroKuApp: Login with a default user.When I login with the default user",
+  "historyId" : "6ab47f868a4914a25d847d5fd17960c3",
+  "time" : {
+    "start" : 1580730945941,
+    "stop" : 1580730947922,
+    "duration" : 1981
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1580730945942,
+        "stop" : 1580730945958,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ecc2dd5593b3ea27",
+        "name" : "Request",
+        "source" : "ecc2dd5593b3ea27.json",
+        "type" : "application/json",
+        "size" : 53
+      }, {
+        "uid" : "7e859196ae263879",
+        "name" : "Response",
+        "source" : "7e859196ae263879.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/b2f65d59-4025-4bd9-95f9-ff7403f8ac0e/clear",
+      "time" : {
+        "start" : 1580730945964,
+        "stop" : 1580730946000,
+        "duration" : 36
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "POST /session/:sessionId/element/b2f65d59-4025-4bd9-95f9-ff7403f8ac0e/value",
+      "time" : {
+        "start" : 1580730946003,
+        "stop" : 1580730946143,
+        "duration" : 140
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1494c929cae1aaee",
+        "name" : "Request",
+        "source" : "1494c929cae1aaee.json",
+        "type" : "application/json",
+        "size" : 24
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1580730946144,
+        "stop" : 1580730946155,
+        "duration" : 11
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "db81e0c809798690",
+        "name" : "Request",
+        "source" : "db81e0c809798690.json",
+        "type" : "application/json",
+        "size" : 53
+      }, {
+        "uid" : "e3a1a5716b530ecd",
+        "name" : "Response",
+        "source" : "e3a1a5716b530ecd.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/69b2ca3b-37e6-481c-bfc7-87cdd3457364/clear",
+      "time" : {
+        "start" : 1580730946157,
+        "stop" : 1580730946184,
+        "duration" : 27
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "POST /session/:sessionId/element/69b2ca3b-37e6-481c-bfc7-87cdd3457364/value",
+      "time" : {
+        "start" : 1580730946186,
+        "stop" : 1580730946320,
+        "duration" : 134
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "66d295ec0958ccb8",
+        "name" : "Request",
+        "source" : "66d295ec0958ccb8.json",
+        "type" : "application/json",
+        "size" : 36
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1580730946320,
+        "stop" : 1580730946332,
+        "duration" : 12
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "bf40454c537bae04",
+        "name" : "Request",
+        "source" : "bf40454c537bae04.json",
+        "type" : "application/json",
+        "size" : 63
+      }, {
+        "uid" : "9f3c491d3f6a8384",
+        "name" : "Response",
+        "source" : "9f3c491d3f6a8384.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/882e3fe0-a626-4df4-bf8f-3334d12e2cd5/click",
+      "time" : {
+        "start" : 1580730946333,
+        "stop" : 1580730947921,
+        "duration" : 1588
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 8,
+    "attachmentsCount" : 8,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Performing login and logout in HeroKuApp: Login with a default user"
+  }, {
+    "name" : "testClass",
+    "value" : "Performing login and logout in HeroKuApp: Login with a default user"
+  }, {
+    "name" : "testMethod",
+    "value" : "When I login with the default user"
+  }, {
+    "name" : "package",
+    "value" : "Performing login and logout in HeroKuApp: Login with a default user"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d37b16054dc0378.json",
+  "parameterValues" : [ "chrome" ]
+}

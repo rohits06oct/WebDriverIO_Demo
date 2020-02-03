@@ -1,0 +1,122 @@
+{
+  "uid" : "80e95a8e92cf5183",
+  "name" : "Then the dropdown menu appears",
+  "fullName" : "Performing Topevents is display or not: the topevents dropdown menu.Then the dropdown menu appears",
+  "historyId" : "a542016607a52b26815b983f773e5f69",
+  "time" : {
+    "start" : 1580730947125,
+    "stop" : 1580730947195,
+    "duration" : 70
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1580730947126,
+        "stop" : 1580730947139,
+        "duration" : 13
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ca855aec5ee0b5d9",
+        "name" : "Request",
+        "source" : "ca855aec5ee0b5d9.json",
+        "type" : "application/json",
+        "size" : 115
+      }, {
+        "uid" : "c45f90744204d773",
+        "name" : "Response",
+        "source" : "c45f90744204d773.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1580730947142,
+        "stop" : 1580730947194,
+        "duration" : 52
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3ecb0f61b8d7e590",
+        "name" : "Request",
+        "source" : "3ecb0f61b8d7e590.json",
+        "type" : "application/json",
+        "size" : 5306
+      }, {
+        "uid" : "afc7ec0993347dd1",
+        "name" : "Response",
+        "source" : "afc7ec0993347dd1.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Performing Topevents is display or not: the topevents dropdown menu"
+  }, {
+    "name" : "testClass",
+    "value" : "Performing Topevents is display or not: the topevents dropdown menu"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then the dropdown menu appears"
+  }, {
+    "name" : "package",
+    "value" : "Performing Topevents is display or not: the topevents dropdown menu"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "80e95a8e92cf5183.json",
+  "parameterValues" : [ "chrome" ]
+}

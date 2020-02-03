@@ -1,0 +1,88 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1580730947943' stop='1580730948550'>
+    <name>Performing login and logout in HeroKuApp: Logout from the secure area page</name>
+    <title>Performing login and logout in HeroKuApp: Logout from the secure area page</title>
+    <test-cases>
+        <test-case start='1580730947944' status='passed' stop='1580730947944'>
+            <name>Hook</name>
+            <title>Hook</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1580730947944' status='passed' stop='1580730948543'>
+            <name>When I click on logout button</name>
+            <title>When I click on logout button</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1580730947944' status='passed' stop='1580730947961'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='03721508-1eb7-4b80-8d94-bd2555063d2e-attachment.json' type='application/json' size='62'/>
+                        <attachment title='Response' source='2aad05c9-117b-449b-b0f2-a339718b3e1f-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1580730947962' status='passed' stop='1580730948543'>
+                    <name>POST /session/:sessionId/element/c2d7910f-e53a-4005-b7b3-0a8ab227b6ba/click</name>
+                    <title>POST /session/:sessionId/element/c2d7910f-e53a-4005-b7b3-0a8ab227b6ba/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1580730948544' status='passed' stop='1580730948549'>
+            <name>Then I will comeback to login page</name>
+            <title>Then I will comeback to login page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1580730948544' status='passed' stop='1580730948549'>
+                    <name>GET /session/:sessionId/url</name>
+                    <title>GET /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Response' source='77fec98e-6af6-442c-9c8f-62b71beaeef4-attachment.json' type='application/json' size='42'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1580730948550' status='passed' stop='1580730948550'>
+            <name>Hook</name>
+            <title>Hook</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

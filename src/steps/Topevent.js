@@ -16,12 +16,3 @@ Then(/^the dropdown menu appears$/, function () {
     var menu=browser.$('div.dropdown-wrapper.league-nav-desktop.desktop-dropdown.hoverable > ul').isDisplayed();
     assert.equal(menu, true);
 });
-
-Then(/^the dropdown menu scrollable$/, function () {
-    const last=$('ul > li:nth-child(20) > a');
-    //last.scrollIntoView();
-    let firststr=last.getText();
-    let laststr=browser.$('ul > li:nth-child(25) > a').getText();
-    assert.notEqual(firststr,laststr);
-    browser.pause(5000);
-});

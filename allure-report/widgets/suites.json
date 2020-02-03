@@ -1,6 +1,17 @@
 {
-  "total" : 2,
+  "total" : 3,
   "items" : [ {
+    "uid" : "a57865b34129ab027d5d76044dd667f3",
+    "name" : "Performing Topevents is display or not: the topevents dropdown menu",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    }
+  }, {
     "uid" : "afe7d567d42c2c9f6b56050792c000aa",
     "name" : "Performing login and logout in HeroKuApp: Login with a default user",
     "statistic" : {

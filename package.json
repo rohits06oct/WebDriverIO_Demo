@@ -4,7 +4,6 @@
   "description": "This is a demo project",
   "main": "index.js",
   "scripts": {
-    "TopEvent": "./node_modules/.bin/wdio wdio.conf.js --spec dialog",
     "open_allure": "./node_modules/.bin/allure generate ./Reports/allure_report --clean && allure open",
     "test": "./node_modules/.bin/wdio wdio.conf.js"
   },

@@ -1,0 +1,66 @@
+{
+  "uid" : "567c425bd9e1af54",
+  "name" : "Hook",
+  "fullName" : "Performing login and logout in HeroKuApp: Logout from the secure area page.Hook",
+  "historyId" : "eadf5f2f8d4910fa43d2fb5a8f5daa8c",
+  "time" : {
+    "start" : 1580730948550,
+    "stop" : 1580730948550,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Performing login and logout in HeroKuApp: Logout from the secure area page"
+  }, {
+    "name" : "testClass",
+    "value" : "Performing login and logout in HeroKuApp: Logout from the secure area page"
+  }, {
+    "name" : "testMethod",
+    "value" : "Hook"
+  }, {
+    "name" : "package",
+    "value" : "Performing login and logout in HeroKuApp: Logout from the secure area page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "c05646393bb5fa39",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580730947944,
+        "stop" : 1580730947944,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "567c425bd9e1af54.json",
+  "parameterValues" : [ "chrome" ]
+}

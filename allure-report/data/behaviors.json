@@ -2,91 +2,143 @@
   "uid" : "b1a8273437954620fa374b796ffaacdd",
   "name" : "behaviors",
   "children" : [ {
-    "name" : "Given I'm on the login page",
-    "uid" : "4b4e7048be1169d3",
+    "name" : "Given I am a user on espn.com",
+    "uid" : "3f246531ccd2edfb",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1580381906577,
-      "stop" : 1580381911223,
-      "duration" : 4646
+      "start" : 1580730941732,
+      "stop" : 1580730947014,
+      "duration" : 5282
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "Given I'm on the login page",
+    "uid" : "f0c6d8377e72f000",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1580730941963,
+      "stop" : 1580730945941,
+      "duration" : 3978
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ "chrome" ]
   }, {
     "name" : "When I login with the default user",
-    "uid" : "aa73ca2ede9ba55f",
+    "uid" : "d37b16054dc0378",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1580381911223,
-      "stop" : 1580381912671,
-      "duration" : 1448
+      "start" : 1580730945941,
+      "stop" : 1580730947922,
+      "duration" : 1981
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ "chrome" ]
   }, {
-    "name" : "Then I shall be on the secure area page",
-    "uid" : "a84e93b640a25e5f",
+    "name" : "When I click Top Events button",
+    "uid" : "4a322c5aa6dcacaa",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1580381912671,
-      "stop" : 1580381913031,
-      "duration" : 360
+      "start" : 1580730947014,
+      "stop" : 1580730947125,
+      "duration" : 111
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "Then the dropdown menu appears",
+    "uid" : "80e95a8e92cf5183",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1580730947125,
+      "stop" : 1580730947195,
+      "duration" : 70
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ "chrome" ]
   }, {
     "name" : "Hook",
-    "uid" : "877bc9c5ab4a1d97",
+    "uid" : "c5bdf2e55bf204d5",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1580381913032,
-      "stop" : 1580381913032,
+      "start" : 1580730947195,
+      "stop" : 1580730947195,
       "duration" : 0
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ "chrome" ]
   }, {
-    "name" : "When I click on logout button",
-    "uid" : "2f6b891f6e88dc4f",
+    "name" : "Then I shall be on the secure area page",
+    "uid" : "8a3740ed6a74d0f1",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1580381913040,
-      "stop" : 1580381914012,
-      "duration" : 972
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "chrome" ]
-  }, {
-    "name" : "Then I will comeback to login page",
-    "uid" : "d35b598c88c72c18",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1580381914012,
-      "stop" : 1580381914394,
-      "duration" : 382
+      "start" : 1580730947922,
+      "stop" : 1580730947934,
+      "duration" : 12
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ "chrome" ]
   }, {
     "name" : "Hook",
-    "uid" : "dc3afdbc15069138",
+    "uid" : "df83ce86d793278a",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1580381914394,
-      "stop" : 1580381914394,
+      "start" : 1580730947934,
+      "stop" : 1580730947935,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "When I click on logout button",
+    "uid" : "1fc55d4dc3f26d3a",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1580730947944,
+      "stop" : 1580730948543,
+      "duration" : 599
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "Then I will comeback to login page",
+    "uid" : "b47a54fcc13259d1",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1580730948544,
+      "stop" : 1580730948549,
+      "duration" : 5
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "Hook",
+    "uid" : "567c425bd9e1af54",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1580730948550,
+      "stop" : 1580730948550,
       "duration" : 0
     },
     "flaky" : false,

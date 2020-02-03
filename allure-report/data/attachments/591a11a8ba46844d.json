@@ -1,0 +1,4 @@
+{
+  "using": "css selector",
+  "value": "div.dropdown-wrapper.league-nav-desktop.desktop-dropdown.hoverable > button"
+}

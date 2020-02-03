@@ -1,0 +1,89 @@
+{
+  "uid" : "8a3740ed6a74d0f1",
+  "name" : "Then I shall be on the secure area page",
+  "fullName" : "Performing login and logout in HeroKuApp: Login with a default user.Then I shall be on the secure area page",
+  "historyId" : "d7e66fbaba09b12c4b8549433465e87a",
+  "time" : {
+    "start" : 1580730947922,
+    "stop" : 1580730947934,
+    "duration" : 12
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "GET /session/:sessionId/url",
+      "time" : {
+        "start" : 1580730947922,
+        "stop" : 1580730947933,
+        "duration" : 11
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "168e6a0315454056",
+        "name" : "Response",
+        "source" : "168e6a0315454056.json",
+        "type" : "application/json",
+        "size" : 43
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Performing login and logout in HeroKuApp: Login with a default user"
+  }, {
+    "name" : "testClass",
+    "value" : "Performing login and logout in HeroKuApp: Login with a default user"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then I shall be on the secure area page"
+  }, {
+    "name" : "package",
+    "value" : "Performing login and logout in HeroKuApp: Login with a default user"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8a3740ed6a74d0f1.json",
+  "parameterValues" : [ "chrome" ]
+}

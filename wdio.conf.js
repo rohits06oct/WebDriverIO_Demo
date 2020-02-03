@@ -24,8 +24,9 @@ exports.config = {
     ],
     // Patterns to exclude.
     exclude: [
+        //'./test/features/Login.feature'
         // 'path/to/excluded/files'
-        //'./src/steps/Topevent.js'
+        //'./test/features/TopEvents.feature'
     ],
     //
     // ============
@@ -125,17 +126,18 @@ exports.config = {
     // The only one supported by default is 'dot'
     // see also: https://webdriver.io/docs/dot-reporter.html
     reporters: [
+        //['spec'],
         // ['junit', {
         //     outputDir: './Reports/Junit',
         //     outputFileFormat: function(options) { // optional
         //         return `junitReport.xml`
         //     }
         // }],
-        // ['allure', {
-        //     outputDir: './Reports/allure_report/',
-        //     disableWebdriverStepsReporting: false,
-        //     disableWebdriverScreenshotsReporting: false,
-        // }]
+        ['allure', {
+            outputDir: './Reports/allure_report/',
+            disableWebdriverStepsReporting: false,
+            disableWebdriverScreenshotsReporting: false,
+         }]
     ],
  //
     // If you are using Cucumber you need to specify the location of your step definitions.

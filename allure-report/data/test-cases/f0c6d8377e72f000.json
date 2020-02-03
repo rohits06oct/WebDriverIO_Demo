@@ -1,0 +1,89 @@
+{
+  "uid" : "f0c6d8377e72f000",
+  "name" : "Given I'm on the login page",
+  "fullName" : "Performing login and logout in HeroKuApp: Login with a default user.Given I'm on the login page",
+  "historyId" : "b516916db28db0383f478364a360bade",
+  "time" : {
+    "start" : 1580730941963,
+    "stop" : 1580730945941,
+    "duration" : 3978
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1580730941965,
+        "stop" : 1580730945940,
+        "duration" : 3975
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c45833b8e6eba57d",
+        "name" : "Request",
+        "source" : "c45833b8e6eba57d.json",
+        "type" : "application/json",
+        "size" : 55
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Performing login and logout in HeroKuApp: Login with a default user"
+  }, {
+    "name" : "testClass",
+    "value" : "Performing login and logout in HeroKuApp: Login with a default user"
+  }, {
+    "name" : "testMethod",
+    "value" : "Given I'm on the login page"
+  }, {
+    "name" : "package",
+    "value" : "Performing login and logout in HeroKuApp: Login with a default user"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f0c6d8377e72f000.json",
+  "parameterValues" : [ "chrome" ]
+}

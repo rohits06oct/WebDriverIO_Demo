@@ -23,6 +23,8 @@ For most SDET's, node need to be install in your system.
 ### If you are facing issue related to your browser ->
 Open this `wdio.conf.js` file and In second line of this file, replace your chrome current version with the mention one.
 
+### Allure Reporting video
+[Reporting Video](https://drive.google.com/file/d/1IxpAnoiiZEwK6B_zWWCNirp7RAogmp3G/view?usp=sharing)
 
 ## Thank You
 Happy Testing
